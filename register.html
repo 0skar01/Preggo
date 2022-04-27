@@ -88,21 +88,22 @@
                                         <h6 class="mb-2 pb-1">Are you pregnant or is your partner pregnant?</h6>
                                     
                                         <div class="form-check form-check-inline">
-                                            <input id="radio1" class="form-check-input" type="radio" name="inlineRadioOptions"  value="option1"/>
+                                            <input id="radio1" class="form-check-input" type="radio" name="inlineRadioOptions2"  value="option1" checked />
                                             <label class="form-check-label">Yes</label>
                                         </div>
                                     
                                         <div class="form-check form-check-inline">
-                                            <input id="radio2" class="form-check-input" type="radio" name="inlineRadioOptions"  value="option2"/>
+                                            <input id="radio2" class="form-check-input" type="radio" name="inlineRadioOptions2"  value="option2"/>
                                             <label class="form-check-label">Not yet</label>
                                         </div>                                   
                                     </div>
-                                    <div class="col-md-6 mb-4" id="slider">
-                                        <label for="customRange1" class="form-label">How far along are you? </label>
-                                        <input type="range" class="form-range">
+                                    <div class="col-md-6 mb-4" id="sliderDiv">
+                                        <label for="customRange1" class="form-label">How far along are you?</label>
+                                        <input id="slider" type="range" class="form-range" min="1" max="40" step="1">
+                                        <output id="output">weeks</output>
                                     </div>
                                 </div>   
-                                <div class="mt-4 pt-2" id="foot">
+                                <div class="mt-4 pt-2">
                                     <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
                                 </div>
     
