@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: pink;
+        }
+        .button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: red;} /* red */
+
+
+    </style>
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <img class="img-fluid" src="images/wasser.png" class="img" alt="Wie sollten das Baby richtige ernähren">
+            </div>
+          
+            <div class="col-12">
+                <h1 class="title">Wie sollten die Schwangerschaft richtige ernähren?</h1>
+             
+                <p class="text">'Die wichtigsten Empfehlungen für die Schwangerschaft
+                  
+                  Trinken Sie mindestens einen, besser zwei Liter Flüssigkeit pro Tag. Essen Sie viel frisches Gemüse und Obst und achten Sie insgesamt auf eine gesunde Ernährung. Achten Sie auf gute Zahnhygiene und lassen Sie eine sorgfältige zahnärztliche Untersuchung durchführen</p>        
+                    
+            </div>
+            <div class="col-12">
+                <img class="img-fluid" src="images/wasser1.png" class="img" alt="Wie sollten das Baby richtige ernähren">
+            </div>
+
+            <h1>Wir kontrollieren uns selbst</h1>
+            <p>Wenn mann genug Wasser getrunken hat klinkt man green,sonst Rot</p>
+           
+            <p>
+              <button class="btn btn-primary button button1" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2">Green</button>
+              <button class="btn btn-primary button button2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Red</button>
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="card card-body">
+                    Ich gratuliere dir.Sie gehen weiter Supper!!!
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                  <div class="card card-body">
+                    Wenn Sie noch mehr Wasser trinken, werden Sie Erfolg haben.
+                                  </div>
+                </div>
+              </div>
+            </div>   
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
