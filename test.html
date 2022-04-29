@@ -1,117 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <style>
         body {
             background-color: pink;
         }
+        
         .button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 {background-color: #4CAF50;} /* Green */
-.button2 {background-color: red;} /* red */
-
-
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        .button1 {
+            background-color: #4CAF50;
+        }
+        /* Green */
+        
+        .button2 {
+            background-color: red;
+        }
+        /* red */
     </style>
     <title>Document</title>
 </head>
+
 <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Preggo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="homescreen.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="rezepte.html">Rezepte</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="test.html">Das Elixir des Lebens</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <img class="img-fluid" src="images/wasser.png" class="img" alt="Wie sollten das Baby richtige ernähren">
-            </div>
-          
-            <div class="col-12">
-                <h1 class="title">Wie sollten die Schwangerschaft richtige ernähren?</h1>
-             
-                <p class="text">'Die wichtigsten Empfehlungen für die Schwangerschaft
-                  
-                  Trinken Sie mindestens einen, besser zwei Liter Flüssigkeit pro Tag. Essen Sie viel frisches Gemüse und Obst und achten Sie insgesamt auf eine gesunde Ernährung. Achten Sie auf gute Zahnhygiene und lassen Sie eine sorgfältige zahnärztliche Untersuchung durchführen</p>        
-                    
-            </div>
-            <div class="col-12">
-                <img class="img-fluid" src="images/wasser1.png" class="img" alt="Wie sollten das Baby richtige ernähren">
+    <div class="container-fluid">
+        <div class="row sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Preggo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+
+                                <a class="nav-link active" aria-current="page" href="homescreen.html">Home</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="rezepte.html">Rezepte</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="test.html">Das Elixir des Lebens</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Ausloggen</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- pregnancy progress-->
+
+            <div class="progress" style="height: 30px; margin-bottom: 10px; padding-left: 0px;">
+                <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%; background-color: #d63384;">Noch 70 Tage bis zur Entbindung</div>
             </div>
 
-            <h1>Wir kontrollieren uns selbst</h1>
-            <p>Wenn mann genug Wasser getrunken hat klinkt man green,sonst Rot</p>
-           
-            <p>
-              <button class="btn btn-primary button button1" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2">Green</button>
-              <button class="btn btn-primary button button2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Red</button>
-            </p>
-            <div class="row">
-              <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample1">
-                  <div class="card card-body">
-                    Ich gratuliere dir.Sie gehen weiter Supper!!!
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample2">
-                  <div class="card card-body">
-                    Wenn Sie noch mehr Wasser trinken, werden Sie Erfolg haben.
-                                  </div>
-                </div>
-              </div>
-            </div>   
+
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img class="img-fluid" src="images/wasser.png" class="img" alt="Wie sollten das Baby richtige ernähren">
+                </div>
+
+                <div class="col-12">
+                    <h1 class="title">Wie sollten die Schwangerschaft richtige ernähren?</h1>
+
+                    <p class="text">'Die wichtigsten Empfehlungen für die Schwangerschaft Trinken Sie mindestens einen, besser zwei Liter Flüssigkeit pro Tag. Essen Sie viel frisches Gemüse und Obst und achten Sie insgesamt auf eine gesunde Ernährung. Achten Sie auf
+                        gute Zahnhygiene und lassen Sie eine sorgfältige zahnärztliche Untersuchung durchführen</p>
+
+                </div>
+                <div class="col-12">
+                    <img class="img-fluid" src="images/wasser1.png" class="img" alt="Wie sollten das Baby richtige ernähren">
+                </div>
+
+                <h1>Wir kontrollieren uns selbst</h1>
+                <p>Wenn mann genug Wasser getrunken hat klinkt man green,sonst Rot</p>
+
+                <p>
+                    <button class="btn btn-primary button button1" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2">Green</button>
+                    <button class="btn btn-primary button button2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Red</button>
+                </p>
+                <div class="row mb-5">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="card card-body">
+                                Ich gratuliere dir.Sie gehen weiter Supper!!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                            <div class="card card-body">
+                                Wenn Sie noch mehr Wasser trinken, werden Sie Erfolg haben.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row fixed-bottom">
+
+            <!-- navbar bottom -->
+
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container justify-content-evenly">
+                    <a class="navbar-brand" href="#">
+                        <i class="bi-person-fill"></i>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <i class="bi-alarm-fill"></i>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <i class="bi-camera-fill"></i>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <i class="bi-heart-fill"></i>
+                    </a>
+                </div>
+
+            </nav>
+
+        </div>
+        <script src="js/bootstrap.min.js"></script>
     </div>
-    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
